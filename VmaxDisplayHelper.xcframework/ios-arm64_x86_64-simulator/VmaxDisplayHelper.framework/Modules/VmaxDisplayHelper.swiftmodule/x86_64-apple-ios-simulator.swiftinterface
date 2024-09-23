@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VmaxDisplayHelper
+import Foundation
+import Swift
+import UIKit
+import Vmax
+@_exported import VmaxDisplayHelper
+import WebKit
+import _Concurrency
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VmaxAdDisplay : ObjectiveC.NSObject, Vmax.VmaxAd {
+  @objc deinit
+  public func prepare(adResponse: Swift.String, delegate: Vmax.VmaxAdDelegate)
+  public func render(container: UIKit.UIView)
+  public static func getSignatures() -> [Swift.String]
+  public func pause()
+  public func resume()
+  public func close()
+  public func set(adClickBrowser: Vmax.AdClickBrowser)
+}
+extension VmaxDisplayHelper.VmaxAdDisplay : Vmax.VmaxRefreshableAd {
+  public func shouldProcessRefresh() -> Swift.Bool
+}
+extension VmaxDisplayHelper.VmaxAdDisplay : Vmax.VmaxViewabilityProtocol {
+  public func add(viewability: Vmax.VmaxAdViewability)
+}
+extension VmaxDisplayHelper.VmaxAdDisplay : Vmax.VmaxCompanionParams {
+  public func set(adParameters width: Swift.Int?, height: Swift.Int?)
+}
+extension VmaxDisplayHelper.VmaxAdDisplay : Vmax.VmaxWebAssetDelegate {
+  public func onPrepared<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
+  public func onPrepareFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onRendered<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
+  public func onRenderFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onClicked(asset: Vmax.VmaxAdAssetHelper)
+  public func onClickedComplete(asset: Vmax.VmaxAdAssetHelper)
+  public func onClosed(asset: Vmax.VmaxAdAssetHelper)
+}
+extension VmaxDisplayHelper.VmaxAdDisplay : Vmax.ViewPortManager {
+  public func addObserverToScrollViews()
+  public func removeObserverFromScrollViews()
+  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+}
+extension VmaxDisplayHelper.VmaxAdDisplay : Vmax.VmaxRefreshableAssetDelegate {
+  public func onAdPaused()
+  public func onAdResumed()
+  public func onAdComplete()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VmaxAdDisplayInterstitial : ObjectiveC.NSObject, Vmax.VmaxAd {
+  @objc deinit
+  public func prepare(adResponse: Swift.String, delegate: Vmax.VmaxAdDelegate)
+  public func render(container: UIKit.UIView)
+  public static func getSignatures() -> [Swift.String]
+  public func pause()
+  public func resume()
+  public func close()
+  public func set(adClickBrowser: Vmax.AdClickBrowser)
+}
+extension VmaxDisplayHelper.VmaxAdDisplayInterstitial : Vmax.VmaxViewabilityProtocol {
+  public func add(viewability: Vmax.VmaxAdViewability)
+}
+extension VmaxDisplayHelper.VmaxAdDisplayInterstitial : Vmax.VmaxWebAssetDelegate {
+  public func onPrepared<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
+  public func onPrepareFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onRendered<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
+  public func onRenderFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onClicked(asset: Vmax.VmaxAdAssetHelper)
+  public func onClickedComplete(asset: Vmax.VmaxAdAssetHelper)
+  public func onClosed(asset: Vmax.VmaxAdAssetHelper)
+}
+extension VmaxDisplayHelper.VmaxAdDisplayInterstitial : Vmax.VmaxInterstitialDelegate {
+  public func onAdInterstitialClose()
+}
