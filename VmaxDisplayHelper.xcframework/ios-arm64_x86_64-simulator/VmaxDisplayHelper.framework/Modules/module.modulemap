@@ -6,6 +6,6 @@ framework module VmaxDisplayHelper {
 }
 
 module VmaxDisplayHelper.Swift {
-    header "VmaxDisplayHelper-Swift.h"
-    requires objc
+  header "VmaxDisplayHelper-Swift.h"
+  requires objc
 }
