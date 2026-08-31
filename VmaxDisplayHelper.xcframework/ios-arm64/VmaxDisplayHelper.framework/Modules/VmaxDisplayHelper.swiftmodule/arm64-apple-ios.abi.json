@@ -172,6 +172,41 @@
           },
           {
             "kind": "Function",
+            "name": "addDimensionsForSignature",
+            "printedName": "addDimensionsForSignature(signature:dimension:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17VmaxDisplayHelper0a2AdB0C25addDimensionsForSignature9signature9dimensionySS_So6CGSizeVtFZ",
+            "mangledName": "$s17VmaxDisplayHelper0a2AdB0C25addDimensionsForSignature9signature9dimensionySS_So6CGSizeVtFZ",
+            "moduleName": "VmaxDisplayHelper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "pause",
             "printedName": "pause()",
             "children": [
@@ -1900,35 +1935,35 @@
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxAdDisplay.swift",
       "kind": "BooleanLiteral",
-      "offset": 830,
+      "offset": 889,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxAdDisplay.swift",
       "kind": "BooleanLiteral",
-      "offset": 866,
+      "offset": 925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxAdDisplay.swift",
       "kind": "BooleanLiteral",
-      "offset": 914,
+      "offset": 973,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxAdDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1096,
+      "offset": 1155,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxAdDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1162,
       "length": 10,
       "value": "\"\""
     },
@@ -1977,70 +2012,70 @@
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 5552,
+      "offset": 5543,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 5644,
+      "offset": 5635,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 5691,
+      "offset": 5682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 5735,
+      "offset": 5726,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 6012,
+      "offset": 6003,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 6030,
+      "offset": 6021,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 6163,
+      "offset": 6154,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 6511,
+      "offset": 6502,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 6653,
+      "offset": 6644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-display\/VmaxDisplayHelper\/VmaxDisplayHelper\/Source\/VmaxWebViewAssetHelper.swift",
       "kind": "StringLiteral",
-      "offset": 6721,
+      "offset": 6712,
       "length": 75,
       "value": "\"Couldn't calculate height for WKWebView using evaluateJavaScript. Reason:\""
     },

@@ -26,23 +26,23 @@
 		</data>
 		<key>Modules/VmaxDisplayHelper.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		m01PcTX3CR9QeHoje4roGwDsUiQ=
+		Y0tqwGUFWep1wRJV4O7/1mMMiEY=
 		</data>
 		<key>Modules/VmaxDisplayHelper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jiYDOHQ5JlwwZk6f9wC1OGOnweg=
+		+PxlJiVPhK/474rZwONsLg9w4TY=
 		</data>
 		<key>Modules/VmaxDisplayHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		gih9GoVBNJbYB4ZVBEa1Ta/AqkE=
+		MnV9l95nIEH7TCuUMtPTNRppE+0=
 		</data>
 		<key>Modules/VmaxDisplayHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jiYDOHQ5JlwwZk6f9wC1OGOnweg=
+		+PxlJiVPhK/474rZwONsLg9w4TY=
 		</data>
 		<key>Modules/VmaxDisplayHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		m/ZZu6Q3lx+QCYmqiz09EQAe6pQ=
+		uLi5/BotFA81EshL4UvAX46sw2Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,35 +83,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6cCkxWeFX4DzFhUGV3ABQzKUaNpK8TUgahbpkqysVvc=
+			ANcGeUKI8kaWCUevm9y+aoFXPc3T4S9xyFODRlmdwKE=
 			</data>
 		</dict>
 		<key>Modules/VmaxDisplayHelper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7TEndHswbkzuuWELnsBS/QNYe/P9/ZEp+VPeIf4ZVAI=
+			zIypsp+zBR1aLqcUDNd8vasm7NCpoHweOqBbCzA5dEA=
 			</data>
 		</dict>
 		<key>Modules/VmaxDisplayHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zfZ2zRPstVHjmcNb6ldrGQml4AgbYUqTC1M+1K48w0Y=
+			BtrGv4e3WzEm5AMzP3GhH2wPr35wpURjY6DBj/Oerz0=
 			</data>
 		</dict>
 		<key>Modules/VmaxDisplayHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7TEndHswbkzuuWELnsBS/QNYe/P9/ZEp+VPeIf4ZVAI=
+			zIypsp+zBR1aLqcUDNd8vasm7NCpoHweOqBbCzA5dEA=
 			</data>
 		</dict>
 		<key>Modules/VmaxDisplayHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TjeNa8ZOzSUomEPZ5KxbaMRr/VaGCp9cAtgkgW+yjWM=
+			2+53Kg/+XUeS2DIdGq0WTocU4vpNu37ia7VBjFtpxow=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -19,6 +19,7 @@ import _SwiftConcurrencyShims
   public func render(container: UIKit.UIView)
   public static func getSignatures() -> [Swift.String]
   public static func getRegexPatternSignatures() -> [Swift.String]
+  public static func addDimensionsForSignature(signature: Swift.String, dimension: CoreFoundation.CGSize)
   public func pause()
   public func resume()
   public func close()
